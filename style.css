@@ -1,0 +1,90 @@
+@font-face {
+	font-family: DCustom;
+	src: url('DFont.otf');
+}
+body {
+	background-color: #313332;
+	margin: 0px;
+	padding: 0px;
+}
+p {
+	font-family: DCustom;
+	color: #fafffc;
+}
+span {
+	font-family: DCustom;
+	color: #fafffc;
+	font-size: 20px;
+}
+input {
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family: DCustom;
+	background-color: #fafffc;
+}
+button {
+	background-color: #fafffc;
+	margin-top: 20px;
+	width: 30px;
+	height: 30px;
+	font-size: 25px;
+	margin-right: 10px;
+	border: #222423 solid 2px;
+	border-radius: 10px;
+	font-family: sans-serif;
+}
+button:active {
+	background-color: #c8ccca;
+}
+button:hover {
+	background-color: #c8ccca;
+}
+#main {
+	padding: 0px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#dum_result {
+	border-radius: 10px;
+	border: #222423 dashed 5px;
+	height: 100px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#result {
+	border-radius: 10px;
+	border: #222423 dashed 5px;
+	height: fit-content;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	display: none;
+}
+#presult {
+	font-size: 25px;
+	margin: 25px;
+	display: none;
+}
+
+#title {
+	font-size: 60px;
+	background-color: #222423;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	border-radius: 20px;
+}
+.desc {
+	font-size: 26px;
+}

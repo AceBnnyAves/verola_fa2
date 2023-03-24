@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calc Friend</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <div id="main"> <!-- This div just helps center the entire thing -->
+    <!-- Tittle & Description -->
+    <p id="title">Welcome to .Calc(FRIEND)!</p>
+    <p class="desc">This is an easy basic calculator website, its pretty convenient! <br> To use it, enter any number in the text boxes below</p>
+
+    <!-- The text boxes -->
+    <input type="text" name="n1" id="n1" placeholder="Input 1st Number">
+    <input type="text" name="n2" id="n2" placeholder="Input 2nd Number">
+
+    <!-- The box where the answer is shown -->
+    <div id="dum_result"></div>
+    <div id="result">
+      <p id="presult">placeholder</p>
+    </div>
+
+    <!-- The BUTTONS -->
+    <div>
+      <button onclick="add()"><b>+</b></button>
+      <button onclick="sub()"><b>-</b></button>
+      <button onclick="mult()"><b>x</b></button>
+      <button onclick="div()"><b>÷</b></button>
+      <button onclick="mod()"><b>II</b></button>
+    </div>
+
+    <!-- Additional Instructions -->
+    <p class="desc">Choose a symbol here to perform it for the two numbers.<br> The answer will pop up in the dotted box <span>(answers will be rounded off to 2)</span></p>
+  </div>
+  <body>
+  </body>
+</html>
